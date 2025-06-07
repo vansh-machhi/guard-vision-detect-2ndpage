@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Shield, ArrowLeft, Mail, Lock, User, Leaf } from "lucide-react";
+import { ArrowLeft, Mail, Lock, User, Leaf } from "lucide-react";
 
 const Auth = () => {
   const navigate = useNavigate();
@@ -52,8 +52,12 @@ const Auth = () => {
           </Button>
           
           <div className="flex items-center justify-center space-x-3 mb-4">
-            <div className="bg-gradient-to-r from-green-600 to-emerald-600 p-3 rounded-xl shadow-lg">
-              <Shield className="h-8 w-8 text-white" />
+            <div className="bg-white p-3 rounded-xl shadow-lg">
+              <img 
+                src="/lovable-uploads/6a1f13b8-be13-49cc-be23-d962ad090bb2.png" 
+                alt="Green Guard Logo" 
+                className="h-8 w-8 object-contain"
+              />
             </div>
             <div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-green-700 to-emerald-700 bg-clip-text text-transparent">

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ChevronLeft, ChevronRight, Leaf, Shield, Camera, Users } from "lucide-react";
+import { ChevronLeft, ChevronRight, Leaf, Camera, Users } from "lucide-react";
 
 const diseaseSymptoms = [
   {
@@ -61,8 +61,12 @@ const Index = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="bg-gradient-to-r from-green-600 to-emerald-600 p-2 rounded-xl">
-                <Shield className="h-8 w-8 text-white" />
+              <div className="bg-white p-2 rounded-xl shadow-lg">
+                <img 
+                  src="/lovable-uploads/6a1f13b8-be13-49cc-be23-d962ad090bb2.png" 
+                  alt="Green Guard Logo" 
+                  className="h-8 w-8 object-contain"
+                />
               </div>
               <div>
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-green-700 to-emerald-700 bg-clip-text text-transparent">
@@ -208,8 +212,12 @@ const Index = () => {
       <footer className="bg-gray-900 text-white py-12 px-6">
         <div className="container mx-auto text-center">
           <div className="flex items-center justify-center space-x-3 mb-4">
-            <div className="bg-gradient-to-r from-green-600 to-emerald-600 p-2 rounded-xl">
-              <Shield className="h-6 w-6 text-white" />
+            <div className="bg-white p-2 rounded-xl">
+              <img 
+                src="/lovable-uploads/6a1f13b8-be13-49cc-be23-d962ad090bb2.png" 
+                alt="Green Guard Logo" 
+                className="h-6 w-6 object-contain"
+              />
             </div>
             <span className="text-xl font-bold">GREEN GUARD</span>
           </div>
